@@ -22,7 +22,7 @@ a {
 }
 
 .dark {
-  --bg: black;
+  --bg: #0f172a;
   --textColor: #ddd;
   --softBg: #1f273a;
   --softTextColor: #a6a6a6;
