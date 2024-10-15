@@ -1,15 +1,15 @@
-import Navbar from "@/components/navbar/Navbar";
-import "./globals.css";
-import { Inter } from "next/font/google";
 import Footer from "@/components/footer/Footer";
+import Navbar from "@/components/navbar/Navbar";
 import { ThemeContextProvider } from "@/context/ThemeContext";
-import ThemeProvider from "@/providers/ThemeProvider";
 import AuthProvider from "@/providers/AuthProvider";
+import ThemeProvider from "@/providers/ThemeProvider";
+import { Inter } from "next/font/google";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Lama Dev Blog App",
+  title: "Dev's Blog App",
   description: "The best blog app!",
 };
 
